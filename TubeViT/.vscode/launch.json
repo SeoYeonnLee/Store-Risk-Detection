@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Train Script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--dataset-root", "/mnt/d/data/temp_train_new",
+                "--annotation-path", "/mnt/d/data/temp_train_new",
+                "--num-classes", "5",
+                "--batch-size", "32",
+            ]
+        }
+    ]
+}
